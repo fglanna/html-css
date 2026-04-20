@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testando Imagem de Fundo</title>
+    <title>Fundo fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+           /*background-color: black;
             background-image: url('./imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /** shortland - background color > image > position > repeat > [size] > attachment
+         */
+
+            background: black url('./imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -26,7 +33,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, optio repellendus iure laudantium voluptatem, doloremque porro impedit saepe quo hic laborum eum? Quae libero unde, harum atque veritatis repellendus odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum velit maxime quidem illum minus voluptate ipsam magni? Recusandae deleniti atque assumenda repellendus numquam odit cupiditate repudiandae! Totam, esse blanditiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, optio repellendus iure laudantium voluptatem, doloremque porro impedit saepe quo hic laborum eum? Quae libero unde, harum atque veritatis repellendus odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum velit maxime quidem illum minus voluptate ipsam magni? Recusandae deleniti atque assumenda repellendus numquam odit cupiditate repudiandae! Totam, esse blanditiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, optio repellendus iure laudantium voluptatem, doloremque porro impedit saepe quo hic laborum eum? Quae libero unde, harum atque veritatis repellendus odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum velit maxime quidem illum minus voluptate ipsam magni? Recusandae deleniti atque assumenda repellendus numquam odit cupiditate repudiandae! Totam, esse blanditiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, optio repellendus iure laudantium voluptatem, doloremque porro impedit saepe quo hic laborum eum? Quae libero unde, harum atque veritatis repellendus odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum velit maxime quidem illum minus voluptate ipsam magni? Recusandae deleniti atque assumenda repellendus numquam odit cupiditate repudiandae! Totam, esse blanditiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, optio repellendus iure laudantium voluptatem, doloremque porro impedit saepe quo hic laborum eum? Quae libero unde, harum atque veritatis repellendus odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum velit maxime quidem illum minus voluptate ipsam magni? Recusandae deleniti atque assumenda repellendus numquam odit cupiditate repudiandae! Totam, esse blanditiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, optio repellendus iure laudantium voluptatem, doloremque porro impedit saepe quo hic laborum eum? Quae libero unde, harum atque veritatis repellendus odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum velit maxime quidem illum minus voluptate ipsam magni? Recusandae deleniti atque assumenda repellendus numquam odit cupiditate repudiandae! Totam, esse blanditiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, optio repellendus iure laudantium voluptatem, doloremque porro impedit saepe quo hic laborum eum? Quae libero unde, harum atque veritatis repellendus odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum velit maxime quidem illum minus voluptate ipsam magni? Recusandae deleniti atque assumenda repellendus numquam odit cupiditate repudiandae! Totam, esse blanditiis.</p>
     </main>
 
 </body>
